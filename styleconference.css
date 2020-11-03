@@ -1,0 +1,178 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(41, 63, 80);
+    min-width: 900px;
+}
+
+.container{
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.header-div{
+     height: 500px;
+}
+
+.style-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stylediv-left{
+    width: 320px;
+}
+
+.stylediv-left a{
+    color: white;
+    font-size: 3em;
+    font-weight: 100;
+    text-decoration: none;
+}
+.stylediv-left a:hover,
+.stylediv-left a:focus{
+    color: rgb(100, 136, 128);
+}
+
+.stylediv-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 2em;
+    
+}
+
+.stylediv-right p{
+    font-size: 1.3em;
+    color: rgb(100, 136, 128);
+    margin-bottom: 1em;
+}
+
+.stylediv-right a{
+    color: white;
+    font-size: 1em;
+    margin-left: 1em;
+    height: 80px;
+    text-decoration: none;
+}
+
+.stylediv-right a:hover,
+.stylediv-right a:focus{
+    color: rgb(100, 136, 128);
+}
+
+.stylediv-body{
+    text-align: center;
+    margin-top: 3.5em;
+}
+.stylediv-bodyp1{
+    color: rgb(100, 136, 128);
+    font-size: 2.5rem;
+}
+
+.stylediv-bodyp2{
+    color:  #fff;
+    font-size: 1.8em;
+    margin: .5em 0;
+}
+
+.stylediv-body input{
+    width: 190px;
+    height: 70px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background: rgb(41, 63, 80);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.body-div{
+    display: flex;
+    margin-top: 1em;
+    min-width: 850px;
+}
+img{
+    width: 700px;
+    max-width: 90%;
+    display: block;
+    border-radius: 5px;
+}
+h4{
+    color: rgb(169, 178, 185);
+    font-size: .9em;
+    margin-bottom: 2em;
+}
+.image-link{
+    font-size: 1.4em;
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+}
+.body-div a{
+    text-decoration: none;
+    color: rgb(100, 136, 128);
+}
+.body-div a:hover,
+.body-div a:focus{
+    color: rgb(169, 178, 185);
+}
+.bodydiv-p{
+    color: rgb(136, 136, 136);
+    font-size: 1.05em;
+    width: 90%;
+    
+}
+footer{
+    background: rgb(41, 63, 80);
+    min-width: 900px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(100, 136, 128);
+    background: rgb(41, 63, 80);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover,
+nav a:focus{
+    color: rgb(100, 136, 128); 
+}
+nav li{
+    margin-left: 1.3em;
+}
+
+@media(max-width: 900px){
+    .body-div{
+        margin-left: 2em;
+    }
+} 
+
+@media(max-width: 650px){
+    header{
+        height: 550px;
+
+    }
+   .style-div{
+       flex-direction: column;
+       text-align: center;
+   } 
+   .stylediv-left{
+       width: 100%;
+   }
+   .stylediv-right {
+       align-items: center;
+   }
+}
